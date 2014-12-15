@@ -1,0 +1,41 @@
+/*
+Theme Name: Manga+Press TwentyFifteen
+Theme URI: http://www.manga-press.com
+Description: Manga+Press compatible version of TwentyFifteen
+Version: 1.0
+Author: Jess Green
+Author URI: http://www.jes.gs/
+Template: twentyfifteen
+Tags: comics, comic theme, manga press, webcomics, online comics
+*/
+
+/* comic navigation */
+.comic-nav-hlist-wrapper {
+    text-align: left;
+    margin: 5px 0 10px 0;
+    padding: 0;
+    clear: both;
+    float: none;
+}
+
+.comic-nav-hlist:after {
+    display: block;
+    content: " ";
+    clear: both;
+    float: none;
+}
+
+.comic-nav-hlist {
+    list-style: none;
+}
+
+.comic-nav-hlist > li {
+    float: left;
+    margin-right: 10px;
+}
+
+.comic-nav-hlist > li:last-of-type:after {
+    display: block;
+    clear: both;
+    float: none;
+}
