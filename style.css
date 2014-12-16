@@ -39,3 +39,11 @@ Tags: comics, comic theme, manga press, webcomics, online comics
     clear: both;
     float: none;
 }
+
+.mangapress-archive-list {
+    list-style: none;
+}
+
+.archive-item-1 {
+    font-size: 1.5em;
+}
