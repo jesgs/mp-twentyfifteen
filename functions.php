@@ -5,6 +5,11 @@
  * @version $Id$
  * @author Jess Green <jgreen@psy-dreamer.com>
  */
+function mangapress_theme_load_theme_textdomain() {
+    load_theme_textdomain('mp-twentyfifteen', get_stylesheet_directory() . '/languages');
+}
+add_action( 'after_setup_theme', 'mangapress_theme_load_theme_textdomain' );
+
 add_action('admin_init', '_disable_options_init');
 /**
  * Run the action that disables the insert_nav option.
